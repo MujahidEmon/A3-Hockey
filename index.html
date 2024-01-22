@@ -19,6 +19,7 @@
           extend: {
             colors: {
               Primary: "#FF4240",
+              Para: "rgba(19, 19, 24, 0.60)",
             },
           },
         },
@@ -34,14 +35,14 @@
     />
 
     <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
   </head>
-  <body class="font-manrope ">
+  <body class="font-manrope">
     <header>
-      <nav class=" lg:w-[1170px] mx-auto mb-0">
+      <nav class="lg:w-[1170px] mx-auto mb-0">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -72,8 +73,8 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost font-extrabold whitespace-nowrap text-2xl
-            lg:text-4xl flex gap-0"
+            <a
+              class="btn btn-ghost font-extrabold whitespace-nowrap text-2xl lg:text-4xl flex gap-0"
               >Hockey<span class="text-Primary">'</span>s</a
             >
           </div>
@@ -97,18 +98,20 @@
           </div>
           <div class="navbar-end gap-x-4">
             <img src="Images/search.png" alt="" />
-            <a class="btn bg-Primary text-white ">Get Ticket</a>
+            <a class="btn bg-Primary text-white">Get Ticket</a>
           </div>
         </div>
       </nav>
-      <div class="banner w-[335px] mx-auto lg:w-[1170px] lg:h-max-[550px] lg:mt-14 mt-8">
+      <div
+        class="banner w-[335px] mx-auto lg:w-[1170px] lg:h-max-[550px] lg:mt-14 mt-8"
+      >
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -137,12 +140,118 @@
                 </div> -->
         </div>
       </div>
-      <hr class="lg:w-[1176px] mx-auto divide-dashed lg:mt-[100px] lg:mb-8">
+      <hr
+        class="lg:w-[1176px] w-[335px] mx-auto divide-dashed mt-10 lg:mt-[100px] mb-6 lg:mb-8"
+      />
     </header>
     <main>
-        <section>
-            <h2 class="lg:text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
-        </section>
+
+        <!-- Program section -->
+
+      <section>
+        <h2 class="text-[22px] lg:text-4xl font-extrabold text-center">
+            Program Sections
+        </h2>
+        <p
+          class="text-Para text-sm lg:text-[16px] w-[335px] lg:w-[607px] text-center mt-6 mb-4 lg:mb-8 mx-auto"
+        >
+        The Program Sections in the hockey club encompass skill development, team training, and game strategy to nurture well-rounded players.
+          <!-- The professional hockey club is a powerhouse of skill and strategy,
+          showcasing elite athletes competing at the highest level in the
+          fast-paced and exhilarating sport of ice hockey. -->
+        </p>
+      
+      <!-- grid section -->
+      <div class="lg:w-[1170px] mx-auto flex lg:flex-row flex-col gap-6">
+        <div
+          class="lg:w-[573px] w-[335px] h-[244px] mx-auto lg:h-[338px] backdrop-opacity-50 content-end bg-center rounded-xl lg:rounded-2xl bg-blend-darken"
+          style="
+            background-image: url('Images/Rectangle\ 13.png'),
+              url('Images/2.png');
+          "
+        >
+          <div class=""></div>
+          <div class="hero-content text-left text-neutral-content">
+            <div class="lg:ml-10">
+              <h1
+                class="lg:mb-4 mb-3 lg:mt-[95px] mt-4 lg:text-[28px] text-xl font-extrabold text-white"
+              >
+                Junior Program
+              </h1>
+              <p class="lg:mb-6 mb-5 text-white text-base font-medium">
+                Junior program serves as a developmental platform nurturing
+                young talent for future success in the sport.
+              </p>
+              <button
+                class="btn bg-Primary font-bold text-white text-base border-transparent"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+
+<!-- second image -->
+
+        <div
+          class="lg:w-[573px] lg:h-[338px] w-[335px] h-[244px] mx-auto content-start backdrop-opacity-60 bg-center rounded-xl lg:rounded-2xl"
+          style="
+            background-image: url('Images/Rectangle\ 13.png'),
+              url('Images/3.png');
+          "
+        >
+          <div class="bg-opacity-60"></div>
+          <div class="hero-content text-left text-neutral-content">
+            <div class="max-w-md">
+              <h1
+                class="lg:mb-5 mb-3 lg:mt-[95px] lg:text-[28px] text-xl font-extrabold text-white"
+              >
+                Teenager Program
+              </h1>
+              <p class="mb-5 text-white text-base font-medium">
+                Teenager program nurtures young talent, providing elite training
+                and development opportunities for aspiring players.
+              </p>
+              <button
+                class="btn bg-Primary font-bold text-white text-base border-transparent"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Big Image -->
+      <div
+          class="lg:w-[1170px] lg:h-[450px] w-[335px] h-[244px] lg:mt-6 mt-4 mx-auto content-start backdrop-opacity-60 bg-center rounded-xl lg:rounded-2xl"
+          style="
+            background-image: url('Images/Rectangle\ 13.png'),
+              url('Images/4.png');
+          "
+        >
+          <div class="bg-opacity-60"></div>
+          <div class="hero-content lg:-ml-[350px]">
+            <div class="max-w-md">
+              <h1
+                class="lg:mb-5 mb-3 lg:mt-[170px] mt-4 content-start lg:text-[28px] text-xl font-extrabold text-white"
+              >
+              Professional Program
+              </h1>
+              <p class="mb-5 text-white text-base font-medium">
+                The Professional Program offers elite training and development for aspiring hockey players within a top-tier club.
+              </p>
+              <button
+                class="btn bg-Primary font-bold text-white text-base border-transparent"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr
+        class="lg:w-[1176px] w-[335px] mx-auto divide-dashed mt-10 lg:mt-[100px] mb-6 lg:mb-8"
+      />
+    </section>
     </main>
     <footer></footer>
   </body>
